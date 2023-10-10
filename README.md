@@ -1,9 +1,9 @@
 # SagaPattern
 
 ## Introduction
-This project provide an abstraction layer and implementations for Saga Design Pattern in microservices. 
-I also wrote an article in the following address that completely cover **Saga Design Pattern**:
-
+This project provide an abstraction layer and implementations for Saga Design Pattern in microservices.  
+I also wrote an article in the following address that completely cover **Saga Design Pattern**:  
+https://www.linkedin.com/pulse/saga-design-pattern-cnet-amir-doosti 
 
 ## Structure of soution
 The solution contains one project which provide abstraction layer for saga pattern in **IActivity**, **SagaContext** and **Saga** and also it implement an example in **SampleSetup** and **Program**.
