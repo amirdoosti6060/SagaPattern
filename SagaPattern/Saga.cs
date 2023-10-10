@@ -32,6 +32,16 @@
             return Context.Activities!;
         }
 
+        public SagaStatus Status
+        {
+            get => Context.Status;
+        }
+
+        public int CurrentActivity
+        {
+            get => Context.CurrentActivity;
+        }
+
         private async Task<ActivityStatus> ExecutingActivities(CancellationToken cancellationToken)
         {
             ActivityStatus activityStatus = ActivityStatus.Failed;
